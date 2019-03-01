@@ -1,0 +1,90 @@
+body
+{
+    overflow-x: hidden; 
+}
+.navbar
+{
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: rgba(0,0,0,0.1);
+    border-color: rgba(0,0,0,0.5);
+    color: #ffba5a;
+    z-index: 10;
+    
+}
+
+#carousel
+{
+    max-height: 40%;
+}
+#slideimages
+{
+    height:100%;
+    width: 100%;
+}
+.main-text
+{
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+#carouselslide
+{
+    
+    width: 100%;
+}
+.btn
+{
+    background-color: #ffba5a;
+}
+.btn:hover
+{
+    background-color: white;
+    color: #ffba5a;
+}
+
+@media screen and (max-width: 765px)
+{
+    #rooms{
+        margin-top: 300px;
+    }
+}
+.section-title
+{
+    color:#ffba5a;
+}
+.card
+{
+    padding: 20px;
+    margin-right: 30px;
+    display: block;
+    box-sizing: border-box;
+    box-shadow: #343a40;
+    z-index: auto;
+    border: 10px black;
+    box-shadow: 10px;   
+}
+.card-footer
+{
+    -ms-flex-item-align: center;
+    align-items: center;
+    margin-left: 35%;
+}
+footer{
+    background-color: #343a40;
+    color: rgba(255,255,255,.5);
+    width: 100%;
+}
+.footer-heading
+{
+    color: white;
+}
+footer > button{
+    background-color: red;
+}
+.social
+{
+    
+    margin-right: 20px;
+}

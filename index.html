@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible">
+    <title>Santinektan Residency</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <nav class="navbar transparent navbar-default navbar-fixed-top">
+        <div class="container">
+    
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navmenu" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Santinektan Residency(Logo here)</a>
+            </div>
+  
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item"><a href="#">Home</a></li>
+                    <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Rooms <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="nav-item"><a href="#">Standard Room</a></li>
+                        <li class="nav-item"><a href="#">Family Room</a></li>
+                        <li class="nav-item"><a href="#">Single Room</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item"><a href="#">About</a></li>
+                    <li class="nav-item"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="carouselslide" style="width: 100%;">
+        <div class="container-fluid" style="width: 100%;">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="http://placehold.it/1200x500/3498db/2980b9" alt="First slide">
+                            </div>
+                            <div class="item">
+                                <img src="http://placehold.it/1200x500/9b59b6/8e44ad" alt="Second slide">
+                            </div>
+                            <div class="item">
+                                <img src="http://placehold.it/1200x500/34495e/2c3e50" alt="Third slide">
+                            </div>
+                        </div>
+                     
+                    </div>
+                    <div class="main-text">
+                        <div class="col-md-12 col-sm-6 text-bottom" style="margin-top: 25%;">
+                            <div class="container">
+                                <form action="" method="POST" class="form-inline">
+                                    <div class="form-group">
+                                        <div class="input-group date" data-date-format="dd.mm.yyyy">
+                                                <input  type="text" class="form-control" placeholder="Check-in">
+                                                <div class="input-group-addon" >
+                                                <span class="glyphicon glyphicon-th"></span>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group date" data-date-format="dd.mm.yyyy">
+                                                <input  type="date" class="form-control" placeholder="Check-out">
+                                                <div class="input-group-addon" >
+                                                <span class="glyphicon glyphicon-th"></span>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                       <input type="integer" class="form-control" placeholder="Childs">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="integer" class="form-control" placeholder="Rooms">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary btn-lg text-white">Check Availibility</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="rooms">
+        <div class="row">
+            <div class="col-sm-6 col-md-12">
+                <h2 class="text-center section-title">Our Rooms</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <img src="images/room1.jpg">
+                    </div>
+                    <div class="card-body">
+                        <b><h3 class="text-center">STANDARD ROOM</h3></b>
+                        <h4 class="text-center">$350.0 per night</h4>
+                    </div> 
+                    <div class="card-footer">
+                        <button class="btn btn-default btn-lg">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/room2.jpg">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center">STANDARD ROOM</h3>
+                        <h4 class="text-center">$350.0 per night</h4>
+                    </div> 
+                    <div class="card-footer">
+                        <button class="btn btn-default btn-lg">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/room3.jpg">
+                    </div>
+                    <div class="card-body">
+                        
+                            <h3 class="text-center">STANDARD ROOM</h3>
+                            <h4 class="text-center">$350.0 per night</h4>
+                        
+                    </div> 
+                    <div class="card-footer">
+                        <button class="btn btn-default btn-lg">Book Now</button>
+                           
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+   
+    
+    <footer class="site-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-3">
+                    <h3 class="footer-heading">
+                        About
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quos rem ullam, placeat amet.</p>
+                    
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3 class="footer-heading mb-4 text-white">Quick Menu</h3>
+                            <ul class="list-unstyled">
+                                <li>About</li>
+                                <li>Services</li>
+                                <li>Approach</li>
+                                <li>Sustainability</li>
+                                <li>News</li>
+                                <li>Careers</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <h3 class="footer-heading">
+                       Contact Us
+                    </h3>
+                    <p>
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <h3 class="footer-heading">
+                        Get Social
+                    </h3>
+                    <p>
+                        <span class="fa fa-facebook social"></span>
+                        <span class="fa fa-twitter social"></span>
+                        <span class="fa fa-instagram social"></span>
+                    </p>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 5%;">
+                <div class="col-sm-6 col-md-12 text-center">
+                    <h4 class="footer-heading">Copyright &copy; 2019 All Rights Reserved</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+   
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+   <script src="js/custom.js"></script>
+</body>
+</html>

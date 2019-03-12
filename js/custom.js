@@ -1,18 +1,19 @@
 $(document).ready(function(){
+    $('nav ul li a').css('color','white');           
+    $('.navbar-brand').css('color','white'); 
+    $('nav').css('background','black');
     $(window).scroll(function(){
-        if($(window).scrollTop()>=100)
+        if($(window).scrollTop()>10)
         {
-            $('.navbar').css('background-color','white');
-            $('#navmenu li a').css("color", "black");
-            $('.navbar-brand').css("color","black");
+            $('nav').addClass('black'); 
+            $('nav').css('background','black');
             
         }
         else
         {
-            $('.navbar').css('background-color','rgba(0,0,0,0.1)');
-            $('#navmenu li a').css("color", "white");
-            $('.navbar-brand').css("color","white");
-
+            $('nav').removeClass('black');
+            $('nav').css('background','black');
+           
         }
     });
 
